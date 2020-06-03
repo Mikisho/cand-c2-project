@@ -1,0 +1,15 @@
+Group hierarchy,Region,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US East (N. Virginia),Amazon Virtual Private Cloud (VPC),0,74.7,896.4,USD,Number of NAT Gateways (2)
+My Estimate,US East (N. Virginia),Amazon EC2,0,1537.32,18447.84,USD,"Operating system (Linux), Quantity (12), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (500 GB)"
+My Estimate,US East (N. Virginia),Amazon EC2,0,1125.6,13507.2,USD,"Operating system (Linux), Quantity (12), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (500 GB)"
+My Estimate,US East (N. Virginia),Elastic Load Balancing,0,36.87,442.44,USD,Number of Application Load Balancers (1)
+My Estimate,US East (N. Virginia),Amazon Elastic IP,0,87.6,1051.2,USD,"Number of EC2 instances (24), Number of EIPs per instance (1)"
+My Estimate,US East (N. Virginia),Amazon Aurora MySQL-Compatible,0,5130.8,61569.6,USD,"Change records per statement (0.38), (1 instances)  db.r5.12xlarge  Memory optimized  OnDemand, Storage amount (500 GB)"
+My Estimate,US East (N. Virginia),S3 Standard,0,12.85,154.2,USD,S3 Standard storage (500 GB per month)
+My Estimate,US East (N. Virginia),S3 One Zone - Infrequent Access,0,16,192,USD,S3 One Zone-IA storage (500 GB per month)
+My Estimate,US East (N. Virginia),S3 Glacier,0,23.25,279,USD,S3 Glacier storage (500 GB per month)
+My Estimate,US East (N. Virginia),Elastic Load Balancing,0,42.71,512.52,USD,"Number of Network Load Balancers (1), Processed bytes per NLB for TCP (2 GB per hour), Average number of new TCP connections (3 per second), Processed bytes per NLB for UDP (2 GB per hour), Average number of new UDP Flows (2 per second), Processed bytes per NLB for TLS (2 GB per hour), Average number of new TLS connections (2 per second)"
+,,,,,,,
+,,,,,,,
+,,,,,,,
+"AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",,,,,,,
