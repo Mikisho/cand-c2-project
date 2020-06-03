@@ -9,7 +9,7 @@ resource "aws_instance" "udacity_t2" {
   ami = "ami-09d95fab7fff3776c"
   subnet_id = "subnet-08bfeacd6c020fb05"
   instance_type = "t2.micro"
-  tags ={
+  tags = {
     Name = "Udacity T2"
   }
 }
