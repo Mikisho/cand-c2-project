@@ -1,6 +1,6 @@
 # TODO: Designate a cloud provider, region, and credentials
 provider "aws" {
-  region = "us-east-1"
+  region = "${var.region}"
 }
 
 # TODO: provision 4 AWS t2.micro EC2 instances named Udacity T2
