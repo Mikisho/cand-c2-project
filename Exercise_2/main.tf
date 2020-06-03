@@ -47,7 +47,7 @@ resource "aws_lambda_function" "python_lambda_fun" {
       Project = "Udacity_AWS_Proj2"
   }
 
-  depends_on = [aws_iam_role_policy_attachment.lambda_logs, aws_cloudwatch_log_group.lambda_log_group]
+  depends_on = [aws_iam_role_policy_attachment.lambda_logs, aws_cloudwatch_log_group.udacity_lambda]
 }
 
 # Cloud watch provision
