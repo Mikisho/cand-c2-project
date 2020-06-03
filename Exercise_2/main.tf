@@ -1,12 +1,12 @@
 provider "aws" {
-  region = "${var.region}"
+  region = var.region
 }
 
 # Lambda Function Provisioning 
 data "archive_file" "lambda_file" {
     type = "zip"
     source_file = "greet_lambda.py"
-    output_path = "${var.lambda_function}"
+    output_path = "var.lambda_function"
 
 }
 
@@ -31,8 +31,8 @@ EOF
 }
 
 resource "aws_lambda_function" "python_lambda_fun" {
-  filename = "${var.lambda_function}"
-  function_name = "${var.lambda_fun_name}"
+  filename = "var.lambda_function"
+  function_name = var.lambda_fun_name
   handler = "greet_lambda.lambda_handler"
   runtime = "python3.8"
   role = aws_iam_role.iam_for_lambda.arn
